@@ -1,3 +1,3 @@
 export class Egreso {
-    constructor(public description: string, public valor: number){}
+    constructor(public descripcion: string, public valor: number){}
 }

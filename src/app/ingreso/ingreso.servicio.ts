@@ -5,4 +5,9 @@ export class IngresoServicio {
         new Ingreso("Sueldo", 4000),
         new Ingreso("Prestamo", 700)
     ]
+
+    eliminar(ingreso: Ingreso) {
+        const indice : number = this.ingresos.indexOf(ingreso);
+        this.ingresos.splice(indice, 1);
+    }
 }
